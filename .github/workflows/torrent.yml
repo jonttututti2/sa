@@ -5,11 +5,11 @@ on:
       - master
       
 env:
-  name: "Android Studio and SDK Tools"
-  comment: "Android Studio for Windows"
-  url: "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.2.0/android-studio-ide-201.7042882-windows.exe"
-  file_name: "android-studio-ide-201.7042882-windows.exe"
-  piece_size: 19 # Check the README.md for recommended piece size
+  name: "trailmakers"
+  comment: "trailmskers"
+  url: "https://download131.uploadhaven.com/1/application/zip/eLRi7ahAC7lSIiCdnMlKyBTs5dGapRu0hnjkn4CJ.zip?key=1l60wLipLH8jzHvGH0XJRQ&expire=1726999167&filename=Trailmakers.v1.9.1.57063.ALL.DLC.zip"
+  file_name: "Trailmakers.v1.9.1.57063.ALL.DLC.zip"
+  piece_size: 2^22 # Check the README.md for recommended piece size
       
 jobs:
   create:
